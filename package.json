@@ -1,0 +1,14 @@
+{
+  "name": "WikiScraper",
+  "version": "0.0.1",
+  "description": "Scrape Wikipedia to MongoDb.",
+  "main": "server.js",
+  "author": "Rodrigo Rocha",
+  "dependencies": {
+    "request": "latest",
+    "cheerio": "latest",
+	"html-to-text": "latest",
+	"crypto": "latest",
+	"mongodb": "latest"
+  }
+}
