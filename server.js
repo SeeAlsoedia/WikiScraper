@@ -28,7 +28,7 @@ var urlOutdated = function(url, obj) {
 		else {
 			var article = data.shift()
 			if (article == null || article.md5 != art.md5) {
-				console.log("Upserting a Article")
+				console.log("Upserting an Article")
 				upsertArticle(art)
 			}
 		}
@@ -63,6 +63,7 @@ var requestUrl = function(url) {
 			var uri = url
 	        request(url, function(error, response, html){
             if(!error){
+				console.log("URL ACESSADA: " + url)
                 var $ = cheerio.load(html)
 
                 var raw, md5
