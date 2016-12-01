@@ -63,7 +63,7 @@ var requestUrl = function(url) {
 			var uri = url
 	        request(url, function(error, response, html){
             if(!error){
-				console.log("URL ACESSADA: " + url)
+				console.log("URL ACESSADA: " + uri)
                 var $ = cheerio.load(html)
 
                 var raw, md5
