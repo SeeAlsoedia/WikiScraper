@@ -9,6 +9,8 @@
     "cheerio": "latest",
 	"html-to-text": "latest",
 	"crypto": "latest",
-	"mongodb": "latest"
+	"mongodb": "latest",
+	"mongoose": "latest",
+	"mongoosastic" : "latest"
   }
 }
